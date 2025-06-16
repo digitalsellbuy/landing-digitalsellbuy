@@ -1,0 +1,65 @@
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #F6F7FA;
+    color: #333;
+}
+header {
+    background-color: #002B7F;
+    color: white;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.logo {
+    max-height: 100px;
+}
+.intro-text h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+.intro-text p {
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+}
+.servicios {
+    padding: 2rem;
+    background: white;
+}
+.servicios h2 {
+    color: #003DA5;
+}
+.servicios ul {
+    list-style: none;
+    padding: 0;
+}
+.servicios ul li::before {
+    content: '✓';
+    color: green;
+    margin-right: 0.5rem;
+}
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+    background: white;
+}
+.btn {
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.btn.whatsapp {
+    background: #25D366;
+    color: white;
+}
+.btn.calendly {
+    background: #003DA5;
+    color: white;
+}
